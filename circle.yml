@@ -5,5 +5,4 @@ machine:
 dependencies:
   override:
     - docker info
-    - docker build -t aveline/buildpack:centos6 centos6
-    - docker build -t aveline/buildpack:centos7 centos7
+    - make build
